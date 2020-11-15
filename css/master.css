@@ -1,0 +1,161 @@
+body{ background-color: #292C34 }
+
+header {
+  background: #292C34;
+  padding: 10px;
+}
+
+header ul {
+  position:fixed;
+  list-style-type: none;
+  background: #292C34;
+  max-width: 10vw;
+  min-width: 6em;
+}
+
+header li {
+  border: none;
+}
+
+header a {
+  text-decoration: none;
+  color : #ffffff;
+  padding:8px;
+  display:block;
+}
+
+.hero {
+  background: url('images/perso.png') top center no-repeat;
+background-size: cover;
+  min-height: 100vh;
+  margin:0
+}
+
+section {
+  min-height: 45vh;
+  padding: 42px;
+}
+
+#section04 {
+  column-count: 3;
+}
+#section07 {
+  column-count: 2;
+}
+
+
+.one {
+  display: flex;
+  flex-direction: row-reverse;
+  background: #292C34;
+  }
+
+.two {
+  display: flex;
+  background: #292C34 ;
+}
+
+.threw {
+  display: flex;
+  flex-direction: row-reverse;
+  background: #292C34 ;
+}
+
+.four {
+  max-width: 1100px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.five {
+  max-width: 1100px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.six {
+  display: flex;
+  background: #292C34 ;
+}
+
+.seven {
+  max-width: 1100px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.eight {
+  max-width: 1100px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center
+}
+
+.nine {
+  display: flex;
+  flex-direction: row-reverse;
+  background: #292C34 ;
+}
+
+.ten {
+  display: flex;
+  background: #292C34 ;
+}
+
+.eleven {
+  display: flex;
+  flex-direction: row-reverse;
+  background: #292C34 ;
+}
+
+.image-block {
+  padding: 5px;
+  max-width: 640px;
+  min-width: 450px;
+  border: 10px;
+}
+
+.image-block img {
+  width : 100%;
+  display: block;
+}
+.illustration {
+  flex-basis: 400px;
+}
+
+.content{
+  flex-basis: 560px;
+}
+
+figcaption {
+  font-family: 'Fahkwang', serif;
+  font-style: italic;
+}
+
+footer u {
+  list-style-type: none;
+  min-height: 100px;
+  background: #ffffff;
+  color : #fff;
+}
+
+footer li {
+  display: inline-block;
+  border: none;
+}
+
+footer nav {
+  text-decoration: none;
+  color : #ffffff;
+  padding:8px;
+  display: block;
+}
+
+section {
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 90vw;
+  margin-left: 6em;
+}
